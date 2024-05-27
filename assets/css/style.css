@@ -18,13 +18,21 @@ body {
 
 /* header */
 header {
-    /* To see area delete after */
-    background-color: brown;
+    background-color: #fafafa;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
 }
 
 h1 {
     text-align: center;
     font-family: 'Poetsen One', sans-serif;
+    color: #3E4A97;
+}
+
+header a {
+    text-decoration: none;
 }
 
 /* Main content */
