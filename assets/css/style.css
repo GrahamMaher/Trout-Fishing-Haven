@@ -30,6 +30,7 @@ h1 {
     font-family: 'Poetsen One', sans-serif;
     color: #0E1123;
     text-transform: uppercase;
+    font-size: 50px;
 }
 
 header a {
@@ -37,6 +38,10 @@ header a {
     color: inherit;
 }
 /* Nav menu */
+.navlist {
+    border-bottom: 2px solid #fafafa;
+}
+
 #navmenu {
     list-style: none;
     color: #fafafa;
@@ -48,10 +53,9 @@ nav {
     position: absolute;
     background-color: #0E1123;
     width: 100%;
-    padding: 0 1rem;
     display: none;
     top: 100%;
-    left: 0;
+    padding: 1rem;
 }
 
 /* dropdown */
@@ -65,7 +69,8 @@ nav {
 
 .dropdown-toggle {
     font-size: xx-large;
-    padding: 0 50%;
+    display: flex;
+    justify-content: center;
 }
 /* Main content */
 main {
