@@ -39,30 +39,33 @@ header a {
 /* Nav menu */
 #navmenu {
     list-style: none;
+    color: #fafafa;
+    text-align: center;
 }
 
 /* Nav menu dropdown */
 nav {
     position: absolute;
-    background-color: #ffffff;
+    background-color: #0E1123;
     width: 100%;
-    left: 0;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px #3a3a3a;
     display: none;
     top: 100%;
+    left: 0;
 }
 
+/* dropdown */
 #dropdown:checked~nav {
     display: block;
 }
 
 #dropdown {
-    display: none;
+    display: none; 
 }
 
 .dropdown-toggle {
     font-size: xx-large;
+    padding: 0 50%;
 }
 /* Main content */
 main {
