@@ -19,7 +19,7 @@ body {
 /* header */
 header {
     background-color: #fafafa;
-    padding: 1em;
+    padding: 1rem 0;
     position: fixed;
     width: 100%;
     z-index: 100;
@@ -28,13 +28,42 @@ header {
 h1 {
     text-align: center;
     font-family: 'Poetsen One', sans-serif;
-    color: #3E4A97;
+    color: #0E1123;
+    text-transform: uppercase;
 }
 
 header a {
     text-decoration: none;
+    color: inherit;
+}
+/* Nav menu */
+#navmenu {
+    list-style: none;
 }
 
+/* Nav menu dropdown */
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+    top: 100%;
+}
+
+#dropdown:checked~nav {
+    display: block;
+}
+
+#dropdown {
+    display: none;
+}
+
+.dropdown-toggle {
+    font-size: xx-large;
+}
 /* Main content */
 main {
     /* To see area delete after */
