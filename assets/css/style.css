@@ -18,10 +18,13 @@ body {
 
 /* header */
 header {
-    text-align: center;
-    font-family: 'Poetsen One', sans-serif;
     /* To see area delete after */
     background-color: brown;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Poetsen One', sans-serif;
 }
 
 /* Main content */
