@@ -1,6 +1,39 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poetsen+One&display=swap');
+
 /* asterix wildcard selector to override default browser styles */
 * {
     padding: 0;
     box-sizing: border-box;
     margin: 0;
+}
+
+/* General styles */
+body {
+    min-height: 200vh;
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    flex-direction: column;
+}
+
+/* header */
+header {
+    text-align: center;
+    font-family: 'Poetsen One', sans-serif;
+    /* To see area delete after */
+    background-color: brown;
+}
+
+/* Main content */
+main {
+    /* To see area delete after */
+    background-color: aquamarine;
+    /* push down footer */
+    flex: 1 0 auto;
+}
+
+/* footer */
+footer {
+    /* to see area delete after */
+    background-color: blueviolet;
 }
