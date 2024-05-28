@@ -143,6 +143,10 @@ footer ul li a {
     #navmenu>li {
         padding-right: 2rem;
     }
+
+    #heroimage {
+        height: 300px;
+    }
 }
 
 /* media query for screens larger than 992px */
@@ -153,5 +157,9 @@ footer ul li a {
 
     #navmenu a:hover {
         background-color: #0428f548;
+    }
+
+    #heroimage {
+        height: 600px;
     }
 }
