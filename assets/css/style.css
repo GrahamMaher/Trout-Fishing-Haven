@@ -10,7 +10,7 @@
 
 /* General styles */
 body {
-    min-height: 200vh;
+    min-height: 100vh;
     font-family: 'Playfair Display', serif;
     display: flex;
     flex-direction: column;
@@ -52,7 +52,7 @@ header a {
 /* Nav menu dropdown */
 nav {
     position: absolute;
-    background-color: #0E1123;
+    background-color: #0e112376;
     width: 100%;
     display: none;
     top: 100%;
@@ -112,16 +112,20 @@ footer {
     }
 
     #navmenu>li {
-        padding-right: 20px;
+        padding-right: 2rem;
     }
 
     .dropdown-toggle {
         display: none;
     }
-
-    .navlist {
-        border-bottom: 3px solid #0E1123;
-    }
 }
 
-/* media query */
+/* media query for screens larger than 992px */
+@media screen and (min-width: 992px) {
+    #navmenu a:hover{
+        background-color:#0428f548;
+    } 
+    main {
+        margin-top: 155px;
+    }   
+}
