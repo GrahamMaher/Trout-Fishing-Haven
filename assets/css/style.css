@@ -76,18 +76,23 @@ nav {
 
 /* Main content */
 main {
-    /* To see area delete after */
-    background-color: aquamarine;
     /* push down footer */
     flex: 1 0 auto;
     margin-top: 76px;
+}
+
+/* Hero image */
+#heroimage {
+    background: url("../images/henry-fraczek-I7r78aJPkrM-unsplash\ \(1\).jpg") no-repeat center center/cover;
+    height: 150px;
+    width: 100%;
 }
 
 /* footer */
 footer {
     background-color: #0E1123;
     text-align: center;
-    padding: 15px;
+    padding: 0 15px;
 }
 
 footer ul {
@@ -104,16 +109,27 @@ footer ul li a {
 
 /* media query for tablets (768px and larger) */
 @media screen and (min-width: 768px) {
-    #logo {
-        font-size: 70px;
-    }
-
     nav {
         display: block;
         position: relative;
         box-shadow: none;
         background-color: #fafafa;
+    }
 
+    .navlist {
+        border-bottom: 2px solid #0E1123;
+    }
+
+    main {
+        margin-top: 152px;
+    }
+
+    .dropdown-toggle {
+        display: none;
+    }
+
+    #logo {
+        font-size: 70px;
     }
 
     #navmenu {
@@ -127,19 +143,15 @@ footer ul li a {
     #navmenu>li {
         padding-right: 2rem;
     }
-
-    .dropdown-toggle {
-        display: none;
-    }
 }
 
 /* media query for screens larger than 992px */
 @media screen and (min-width: 992px) {
-    #navmenu a:hover {
-        background-color: #0428f548;
-    }
-
     main {
         margin-top: 155px;
+    }
+
+    #navmenu a:hover {
+        background-color: #0428f548;
     }
 }
