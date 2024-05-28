@@ -85,8 +85,21 @@ main {
 
 /* footer */
 footer {
-    /* to see area delete after */
-    background-color: blueviolet;
+    background-color: #0E1123;
+    text-align: center;
+    padding: 15px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+
+footer ul li a {
+    color: #fafafa;
+    font-size: 150%;
 }
 
 /* media query for tablets (768px and larger) */
@@ -122,10 +135,11 @@ footer {
 
 /* media query for screens larger than 992px */
 @media screen and (min-width: 992px) {
-    #navmenu a:hover{
-        background-color:#0428f548;
-    } 
+    #navmenu a:hover {
+        background-color: #0428f548;
+    }
+
     main {
         margin-top: 155px;
-    }   
+    }
 }
