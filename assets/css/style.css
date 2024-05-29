@@ -89,6 +89,15 @@ main {
     position: relative;
 }
 
+/* Freshwater trout fishing */
+#content-style h3 {
+    margin: 10px;
+    border-bottom: 2px solid #0E1123;
+    text-align: center;
+}
+
+#methods-style h3
+
 /* Text over the hero image */
 #picture-text {
     padding: 10px;
