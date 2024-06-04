@@ -118,12 +118,17 @@ main {
 }
 
 /* areas of interest */
-
-.maps h2 {
+#locations-image {
+    background: url("../images/landscape-sea-tree-water-nature-marsh-1074815-pxhere.com.webp") no-repeat center center/cover;
+    height: 300px;
+    width: 100%;
+    position: relative;
+}
+#maps h2 {
     padding: 1rem;
 }
 
-.maps iframe {
+#maps iframe {
     position: relative;
     top: 0;
     left: 0;
