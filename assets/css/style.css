@@ -149,14 +149,18 @@ main {
 #join-us-form {
     color: #fafafa;
     background-color: #0f1f7671;
-    padding: 10px;
+    padding: 1rem 10px 20px;
 }
 
 .text{
     margin: 10px 0;
+    padding: 5px;
+    font-size: large;
 }
 
 .join-button{
+    margin-top: 20px;
+    margin-left: 20px;
     padding: 5px;
 }
 
@@ -231,6 +235,24 @@ footer ul li a {
     #locations {
         margin: 3rem;
     }
+
+    /* Contact us form */
+    #join-us {
+        background-position: center;
+        position: relative;
+    }
+
+    #join-us-form {
+        position: absolute;
+        width: 550px;
+        top: 30%;
+        left: 15%;
+    }
+
+    #join-us-form>h2 {
+        font-size: 30px;
+    }
+    
 }
 
 /* media query for screens larger than 992px */
@@ -245,5 +267,11 @@ footer ul li a {
 
     #heroimage {
         height: 600px;
+    }
+
+    /* Contact us form */
+    #join-us-form {
+        top: 15%;
+        left: 5%;
     }
 }
