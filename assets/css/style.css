@@ -18,7 +18,7 @@ body {
 
 /* header */
 header {
-    background-color: #fafafa;
+    background-color: #3e8090;
     padding-top: 5px;
     position: fixed;
     width: 100%;
@@ -52,7 +52,7 @@ header a {
 /* Nav menu dropdown */
 nav {
     position: absolute;
-    background-color: #0e112376;
+    background-color: #0e1123f1;
     width: 100%;
     display: none;
     top: 100%;
@@ -85,14 +85,15 @@ main {
 
 /* Hero image */
 #heroimage {
-    background: url("../images/henry-fraczek-I7r78aJPkrM-unsplash\ \(1\).webp") no-repeat center center/cover;
+    background: url("../images/jpeg-optimizer_henry-fraczek-I7r78aJPkrM-unsplash-_1_.webp") no-repeat center center/cover;
     height: 300px;
     width: 100%;
     position: relative;
 }
 
 /* Freshwater trout fishing */
-#content-style h3,h4 {
+#content-style h3,
+h4 {
     border-bottom: 2px solid #0E1123;
     text-align: center;
     margin-top: 10px;
@@ -100,19 +101,20 @@ main {
 
 #content-style {
     padding: 1rem;
-    /* background-color: #a69c51; */
+    font-size: large;
 }
 
 #methods-style {
     margin-top: 2rem;
 }
 
-#freshwater-style {
-    font-size: large;
-}
- 
-#fly-fishing, #spin-fishing {
+#fly-fishing,
+#spin-fishing,
+#other-fishing {
     background-color: #a69c51;
+    border-radius: 25px;
+    padding: 5px;
+    margin: 15px 0;
 }
 
 /* Text over the hero image */
@@ -199,12 +201,12 @@ footer ul li a {
     main {
         margin-top: 150px;
     }
-    
+
     nav {
         display: block;
         position: relative;
         box-shadow: none;
-        background-color: #fafafa;
+        background-color: #3e8090;
     }
 
     .navlist {
@@ -244,24 +246,25 @@ footer ul li a {
     #methods-style {
         padding: 1rem;
     }
-    
+
     #methods-style h3 {
         border-bottom: 2px solid #0E1123;
         text-align: center;
         margin-top: 10px;
     }
-    
+
     .fishing-methods {
         display: flex;
         justify-content: space-between;
         gap: 1rem;
     }
-    
-    #fly-fishing, #spin-fishing {
+
+    #fly-fishing,
+    #spin-fishing {
         flex: 1;
         padding: 1rem;
     }
-    
+
     #other-fishing {
         margin-top: 2rem;
     }
@@ -300,6 +303,7 @@ footer ul li a {
     }
 
     #heroimage {
+        background: url("../images/jpeg-optimizer_henry-fraczek-I7r78aJPkrM-unsplash.webp") no-repeat center center/cover ;
         height: 600px;
     }
 
