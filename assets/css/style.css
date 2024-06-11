@@ -92,7 +92,7 @@ main {
 }
 
 /* Freshwater trout fishing */
-#content-style h3 {
+#content-style h3,h4 {
     border-bottom: 2px solid #0E1123;
     text-align: center;
     margin-top: 10px;
@@ -100,23 +100,32 @@ main {
 
 #content-style {
     padding: 1rem;
+    /* background-color: #a69c51; */
 }
 
 #methods-style {
     margin-top: 2rem;
 }
 
+#freshwater-style {
+    font-size: large;
+}
+ 
+#fly-fishing, #spin-fishing {
+    background-color: #a69c51;
+}
+
 /* Text over the hero image */
 #picture-text {
     padding: 10px;
     position: absolute;
-    left: 45px;
-    bottom: 50px;
+    right: 20px;
+    top: 15px;
     text-align: center;
-    background-color: #1b0101b6;
+    background-color: #182b26ca;
     color: #fafafa;
-    font-size: 80%;
-    width: 80%;
+    font-size: 90%;
+    width: 90%;
 }
 
 /* areas of interest */
@@ -126,6 +135,7 @@ main {
     width: 100%;
     position: relative;
 }
+
 #maps h2 {
     padding: 1rem;
 }
@@ -152,13 +162,13 @@ main {
     padding: 1rem 10px 20px;
 }
 
-.text{
+.text {
     margin: 10px 0;
     padding: 5px;
     font-size: large;
 }
 
-.join-button{
+.join-button {
     margin-top: 20px;
     margin-left: 20px;
     padding: 5px;
@@ -186,6 +196,10 @@ footer ul li a {
 
 /* media query for tablets (768px and larger) */
 @media screen and (min-width: 768px) {
+    main {
+        margin-top: 150px;
+    }
+    
     nav {
         display: block;
         position: relative;
@@ -195,10 +209,6 @@ footer ul li a {
 
     .navlist {
         border-bottom: 2px solid #0E1123;
-    }
-
-    main {
-        margin-top: 152px;
     }
 
     .dropdown-toggle {
@@ -226,10 +236,34 @@ footer ul li a {
     }
 
     #picture-text {
-        bottom: 50px;
-        left: 20px;
         width: 300px;
         font-size: 120%;
+        margin-top: 100px;
+    }
+
+    #methods-style {
+        padding: 1rem;
+    }
+    
+    #methods-style h3 {
+        border-bottom: 2px solid #0E1123;
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    .fishing-methods {
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+    
+    #fly-fishing, #spin-fishing {
+        flex: 1;
+        padding: 1rem;
+    }
+    
+    #other-fishing {
+        margin-top: 2rem;
     }
 
     #locations {
@@ -252,7 +286,7 @@ footer ul li a {
     #join-us-form>h2 {
         font-size: 30px;
     }
-    
+
 }
 
 /* media query for screens larger than 992px */
@@ -267,6 +301,11 @@ footer ul li a {
 
     #heroimage {
         height: 600px;
+    }
+
+    #picture-text {
+        font-size: 150%;
+        width: 400px;
     }
 
     /* Contact us form */
