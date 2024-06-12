@@ -18,7 +18,7 @@ body {
 
 /* header */
 header {
-    background-color: #3e8090;
+    background-color: #37bbdc;
     padding-top: 5px;
     position: fixed;
     width: 100%;
@@ -49,6 +49,10 @@ header a {
     text-align: center;
 }
 
+#navmenu li {
+    margin-bottom: 10px;
+}
+
 /* Nav menu dropdown */
 nav {
     position: absolute;
@@ -72,6 +76,8 @@ nav {
     font-size: xx-large;
     display: flex;
     justify-content: center;
+    min-height: 35px;
+    border-bottom: 3px solid #0E1123;
 }
 
 /* Main content */
@@ -111,10 +117,11 @@ h4 {
 #fly-fishing,
 #spin-fishing,
 #other-fishing {
-    background-color: #a69c51;
+    background-color: #29c8a0;
     border-radius: 25px;
-    padding: 5px;
+    padding: 25px;
     margin: 15px 0;
+    border:1px solid #0E1123;
 }
 
 /* Text over the hero image */
@@ -138,8 +145,25 @@ h4 {
     position: relative;
 }
 
-#maps h2 {
-    padding: 1rem;
+#locations-image>h2 {
+    padding: 10px;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    text-align: center;
+    background-color: #182b26ca;
+    color: #fafafa;
+    font-size: 120%;
+    width: 90%;
+}
+
+#maps{
+    background-color: #29c8a0;
+    border-radius: 25px;
+    padding: 25px;
+    margin: 15px 5px;
+    text-align: center;
+    border:1px solid #0E1123;
 }
 
 #maps iframe {
@@ -206,7 +230,8 @@ footer ul li a {
         display: block;
         position: relative;
         box-shadow: none;
-        background-color: #3e8090;
+        background-color: #37bbdc;
+        border-bottom: 3px solid #0E1123;
     }
 
     .navlist {
@@ -243,6 +268,10 @@ footer ul li a {
         margin-top: 100px;
     }
 
+    #content-style {
+        font-size: 20px;
+    }
+
     #methods-style {
         padding: 1rem;
     }
@@ -267,6 +296,12 @@ footer ul li a {
 
     #other-fishing {
         margin-top: 2rem;
+    }
+
+    /* areas of interest */
+
+    #locations-image {
+        margin-top: 40px;
     }
 
     #locations {
@@ -303,7 +338,7 @@ footer ul li a {
     }
 
     #heroimage {
-        background: url("../images/jpeg-optimizer_henry-fraczek-I7r78aJPkrM-unsplash.webp") no-repeat center center/cover ;
+        background: url("../images/jpeg-optimizer_henry-fraczek-I7r78aJPkrM-unsplash.webp") no-repeat center center/cover;
         height: 600px;
     }
 
