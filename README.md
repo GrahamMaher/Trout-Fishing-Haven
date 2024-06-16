@@ -29,15 +29,28 @@ Trout Fishing Haven is a fictional website created for Project Portfolio 1.
   - contact-us.html that is used to sign up for some more information and tips if the user wishes.
 
 # Planning
+   ## Wireframes
+   <details open>
+    <summary>Desktop Wireframes</summary>
+     <img src="assets/test-images/desktop-home-page.png">
+     <img src="assets/test-images/desktop-areas-of-interest.png">
+     <img src="assets/test-images/desktop-contact-us.png">
+   </details>
+   <details open>
+    <summary>Mobile Wireframes</summary>
+     <img src="assets/test-images/mobile-wireframes.png">
+   </details>
+
+
 
 # Design
  - ## Header
-Header font was chosen to look relaced and informal as fishng is meant to be a relaxing past time. Poetsen One font format was imported from Google Fonts.
+   Header font was chosen to look relaced and informal as fishng is meant to be a relaxing past time. Poetsen One font format was imported from Google Fonts.
  - ## Colours
-Colours of the website were chosen to represent the different colours of a lake or river.
+   Colours of the website were chosen to represent the different colours of a lake or river.
  - ## Imagery
-Imagery that was used on the website are the showing areas, equipment and actual trout fishing in order to show the art of fishing.
+   Imagery that was used on the website are the showing areas, equipment and actual trout fishing in order to show the art of fishing.
 - ## Main Font
-Main font was chosen to be a bit more formal as it is providing factual information. Playfair Display font format was imported for Google Fonts.
+   Main font was chosen to be a bit more formal as it is providing factual information. Playfair Display font format was imported for Google Fonts.
 - ## Back-up Fonts
-Seriff and Sans-Seriff were chosen as back-up fonts for the main font and header respectively.
+   Seriff and Sans-Seriff were chosen as back-up fonts for the main font and header respectively.
