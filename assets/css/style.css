@@ -202,6 +202,7 @@ h4 {
     width: 300px;
 }
 
+
 .join-button {
     margin-top: 20px;
     margin-left: 20px;
@@ -341,7 +342,7 @@ footer ul li a {
 
     .text-message {
         height: 200px;
-        width: 400px;
+        width: 500px;
     }
 
 }
@@ -381,11 +382,6 @@ footer ul li a {
     #join-us-form {
         top: 15%;
         left: 5%;
-    }
-
-    .text-message {
-        height: 500px;
-        width: 500px;
     }
 
 }
