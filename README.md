@@ -23,7 +23,10 @@ Trout Fishing Haven is a website to give you an overview what and how to catch t
 9. [Areas of Interest](#areas-of-interest)
 10. [Contact Us](#contact-us)
 11. [Footer](#footer)  
-12. [Technologies and Tools](#technologies-and-tools-used)      
+12. [Technologies and Tools](#technologies-and-tools-used)
+13. [Testing](#testing)
+    - [HTML Validation](#html-validation)
+    - [CSS Validation](#css-validation)      
 # Overview
 Trout Fishing Haven is a fictional website created for Project Portfolio 1.
 - Website consists of 3 seperate HTML pages all linked together through the use of the nav menu.
@@ -116,4 +119,13 @@ Trout Fishing Haven is a fictional website created for Project Portfolio 1.
  - [W3C](https://www.w3.org/) Validation of HTML and CSS
  - [Pexels](https://www.pexels.com/) Images for the webpage
 
+ # Testing
+   ## HTML Validation
+   -No errors were returned
+   <img src="assets/test-images/validated-index.png">
+   <img src="assets/test-images/validated-areas-of-interest.png">
+   <img src="assets/test-images/validated-contact-us.png">
 
+   ## CSS Validation
+   -No errors were returned
+   <img src="assets/test-images/css-validated.png">
