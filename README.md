@@ -17,8 +17,9 @@ Trout Fishing Haven is a website to give you an overview what and how to catch t
    - [Imagery](#imagery)
    - [Main Font](#main-font)
    - [Back-up Fonts](#back-up-fonts)
-
-          
+6. [Navigation Menu](#navigation-menu)
+7. [Welcome Image](#welcome-image) 
+8. [Main Content](#main-content)         
 # Overview
 Trout Fishing Haven is a fictional website created for Project Portfolio 1.
 - Website consists of 3 seperate HTML pages all linked together through the use of the nav menu.
@@ -66,8 +67,24 @@ Trout Fishing Haven is a fictional website created for Project Portfolio 1.
 
   ### Mobile screen navigation menu closed
   <img src="assets/test-images/navigation-menu-mobile.png">
-  
+
   ### Mobile screen navigation menu open
   <img src="assets/test-images/navigation-menu-mobile-open.png">
+
+# Welcome image
+  <img src="assets/test-images/welcome-image.png">
+
+# Main content
+  - Main content describes freshwater fishing, the methods and the different types of lures that can be used for those who are new or experienced fisherman wanting to try something new.
+    The 2 ways of fishing are split into their own boxes and the following three methods are contained in a seperate box.
+  <img src="assets/test-images/Main-content.png"> 
+
+# Areas of Interest
+  - Different image at the top of page is used to differentiate between the pages
+  <img src="assets/test-images/areas-of-interest-image.png">
+  - Areas of Interest have maps imbedded from Google Maps of various lakes, when clicked on a new tab will open with the map from Google giving direction etc.
+  <img src="assets/test-images/areas-of-interest.png">
+
+
 
 
