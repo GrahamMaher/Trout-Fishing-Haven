@@ -19,7 +19,10 @@ Trout Fishing Haven is a website to give you an overview what and how to catch t
    - [Back-up Fonts](#back-up-fonts)
 6. [Navigation Menu](#navigation-menu)
 7. [Welcome Image](#welcome-image) 
-8. [Main Content](#main-content)         
+8. [Main Content](#main-content) 
+9. [Areas of Interest](#areas-of-interest)
+10. [Contact Us](#contact-us)
+11. [Footer](#footer)        
 # Overview
 Trout Fishing Haven is a fictional website created for Project Portfolio 1.
 - Website consists of 3 seperate HTML pages all linked together through the use of the nav menu.
@@ -85,6 +88,14 @@ Trout Fishing Haven is a fictional website created for Project Portfolio 1.
   - Areas of Interest have maps imbedded from Google Maps of various lakes, when clicked on a new tab will open with the map from Google giving direction etc.
   <img src="assets/test-images/areas-of-interest.png">
 
+# Contact Us
+  -Contact us form is used for visitors to send a message with your name and email address to a professional for any queries. All fields of the form require an input in order to submit.
+  The form does not currently push to a server or website.
+  <img src="assets/test-images/contact-us.png">
+
+# Footer
+  - Footer currently links to social media and opens it in a new tab. Currently no social media accounts exist.
+  <img src="assets/test-images/footer.png">
 
 
 
