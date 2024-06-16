@@ -22,7 +22,8 @@ Trout Fishing Haven is a website to give you an overview what and how to catch t
 8. [Main Content](#main-content) 
 9. [Areas of Interest](#areas-of-interest)
 10. [Contact Us](#contact-us)
-11. [Footer](#footer)        
+11. [Footer](#footer)  
+12. [Technologies and Tools](#technologies-and-tools-used)      
 # Overview
 Trout Fishing Haven is a fictional website created for Project Portfolio 1.
 - Website consists of 3 seperate HTML pages all linked together through the use of the nav menu.
@@ -85,7 +86,7 @@ Trout Fishing Haven is a fictional website created for Project Portfolio 1.
 # Areas of Interest
   - Different image at the top of page is used to differentiate between the pages
   <img src="assets/test-images/areas-of-interest-image.png">
-  - Areas of Interest have maps imbedded from Google Maps of various lakes, when clicked on a new tab will open with the map from Google giving direction etc.
+  - Areas of Interest have maps embedded from Google Maps of various lakes, when clicked on a new tab will open with the map from Google giving direction etc.
   <img src="assets/test-images/areas-of-interest.png">
 
 # Contact Us
@@ -97,5 +98,17 @@ Trout Fishing Haven is a fictional website created for Project Portfolio 1.
   - Footer currently links to social media and opens it in a new tab. Currently no social media accounts exist.
   <img src="assets/test-images/footer.png">
 
+
+# Technologies and tools used
+ - HTML Structure of the webpage
+ - CSS Styling of the wepage
+ - [Github](https://github.com/GrahamMaher/Trout-Fishing-Haven) Creation of project repository
+ - [Gitpod](https://grahammaher-troutfishin-u8t3vzqkhf3.ws-eu114.gitpod.io/) Creation of the workspace for coding
+ - [Image Resizer](https://imageresizer.com/) Resize wireframes
+ - [ChatGPT](https://chatgpt.com) Help with paragraph information and structure
+ - [Tinypng](https://tinypng.com/) Optimise and convert images to wpeg
+ - [Favicon](https://favicon.io/) Selector for favicon used
+ - [Adobe Color](https://color.adobe.com/create/color-wheel) Selector for colours used on the webpage
+ - [Google Maps](https://www.google.com/maps/) Embedded maps used
 
 
