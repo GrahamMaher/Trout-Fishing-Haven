@@ -57,4 +57,11 @@ Trout Fishing Haven is a fictional website created for Project Portfolio 1.
 
 
 # Navigation Menu
+  - Navigation menu located in the top and center of the page below the main header for easy of viewing.
+  - Fixed position to the top of the page for use while scrolling incase the user wants to go to another page.
+  - When viewing the navigation menu on a mobile screen it is hidden inside of a burger icon drop down menu in order to save space.
+
+  ### Large screen navigation menu
+  <img src="assets/test-images/Navigation-menu.png>
+
 
