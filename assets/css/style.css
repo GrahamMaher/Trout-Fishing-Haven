@@ -198,8 +198,8 @@ h4 {
 }
 
 .text-message {
-    height: 500px;
-    width: 500px;
+    height: 100px;
+    width: 300px;
 }
 
 .join-button {
@@ -339,6 +339,11 @@ footer ul li a {
         font-size: 30px;
     }
 
+    .text-message {
+        height: 200px;
+        width: 400px;
+    }
+
 }
 
 /* media query for screens larger than 992px */
@@ -377,4 +382,10 @@ footer ul li a {
         top: 15%;
         left: 5%;
     }
+
+    .text-message {
+        height: 500px;
+        width: 500px;
+    }
+
 }
