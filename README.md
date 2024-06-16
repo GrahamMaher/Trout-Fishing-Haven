@@ -54,3 +54,7 @@ Trout Fishing Haven is a fictional website created for Project Portfolio 1.
    Main font was chosen to be a bit more formal as it is providing factual information. Playfair Display font format was imported for Google Fonts.
 - ## Back-up Fonts
    Seriff and Sans-Seriff were chosen as back-up fonts for the main font and header respectively.
+
+
+# Navigation Menu
+

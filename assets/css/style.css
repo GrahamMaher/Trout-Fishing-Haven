@@ -197,6 +197,11 @@ h4 {
     font-size: large;
 }
 
+.text-message {
+    height: 500px;
+    width: 500px;
+}
+
 .join-button {
     margin-top: 20px;
     margin-left: 20px;
