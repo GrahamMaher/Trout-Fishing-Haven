@@ -110,5 +110,10 @@ Trout Fishing Haven is a fictional website created for Project Portfolio 1.
  - [Favicon](https://favicon.io/) Selector for favicon used
  - [Adobe Color](https://color.adobe.com/create/color-wheel) Selector for colours used on the webpage
  - [Google Maps](https://www.google.com/maps/) Embedded maps used
+ - [Google Fonts](https://fonts.google.com) Selector for fonts used
+ - [Font Awesome](https://fontawesome.com/) Icons used
+ - [Am I Responsive](https://ui.dev/amiresponsive) Test responsiveness for different media
+ - [W3C](https://www.w3.org/) Validation of HTML and CSS
+ - [Pexels](https://www.pexels.com/) Images for the webpage
 
 
