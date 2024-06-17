@@ -129,3 +129,5 @@ Trout Fishing Haven is a fictional website created for Project Portfolio 1.
    ## CSS Validation
    -No errors were returned
    <img src="assets/test-images/css-validated.png">
+
+   ## Google dev tool Lighthouse
