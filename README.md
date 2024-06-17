@@ -109,7 +109,7 @@ Trout Fishing Haven is a fictional website created for Project Portfolio 1.
  - [Gitpod](https://grahammaher-troutfishin-u8t3vzqkhf3.ws-eu114.gitpod.io/) Creation of the workspace for coding
  - [Image Resizer](https://imageresizer.com/) Resize wireframes
  - [ChatGPT](https://chatgpt.com) Help with paragraph information and structure
- - [Tinypng](https://tinypng.com/) Optimise and convert images to wpeg
+ - [Tinypng](https://tinypng.com/) Optimise and convert images to Webp
  - [Favicon](https://favicon.io/) Selector for favicon used
  - [Adobe Color](https://color.adobe.com/create/color-wheel) Selector for colours used on the webpage
  - [Google Maps](https://www.google.com/maps/) Embedded maps used
