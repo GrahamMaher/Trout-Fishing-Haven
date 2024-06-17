@@ -26,7 +26,8 @@ Trout Fishing Haven is a website to give you an overview what and how to catch t
 12. [Technologies and Tools](#technologies-and-tools-used)
 13. [Testing](#testing)
     - [HTML Validation](#html-validation)
-    - [CSS Validation](#css-validation)      
+    - [CSS Validation](#css-validation)
+    - [Google dev tools Lighthouse](#google-dev-tool-lighthouse)      
 # Overview
 Trout Fishing Haven is a fictional website created for Project Portfolio 1.
 - Website consists of 3 seperate HTML pages all linked together through the use of the nav menu.
@@ -131,3 +132,52 @@ Trout Fishing Haven is a fictional website created for Project Portfolio 1.
    <img src="assets/test-images/css-validated.png">
 
    ## Google dev tool Lighthouse
+   ### Desktop index.html
+   <img src="assets/test-images/desktop-index.png">
+
+   ### Desktop areas-of-interest.html
+   <img src="assets/test-images/desktop-areas-of-interest-lighthouse.png">
+
+   ### Desktop contact-us.html
+   <img src="assets/test-images/desktop-contact-lighthouse.png">
+
+   ### Mobile index.html
+   <img src="assets/test-images/mobile-index-lighthouse.png">
+
+   ### Mobile areas-of-interest.html
+   <img src="assets/test-images/mobile-areas-lighthouse.png">
+
+   ### Mobile contact-us.html
+   <img src="assets/test-images/mobile-contact-lighthouse.png">
+
+  ## Webpage Test
+  Website was tested on Edge, Firefox and Google CHrome and appeared and responded as designed.
+
+# Bugs
+  No major bugs seen, only minor syntax and spelling errors. No unfixed bugs known.
+
+# Deployment
+ ## Deploy through Github Repositiory
+ ### Steps
+ -[Repository](https://github.com/GrahamMaher/Trout-Fishing-Haven)
+ 1. Click on repository you would like to deploy.
+ 2. Go to settings tab top left of the page in the nav menu.
+ 3. Select pages
+ 4. Under Build and Deployment select source- deploy from branch
+ 5. Under branch select-main
+ 6. Under folder select root and click save.
+ 7. Top of the page will now state that your page is now live and will give you the icon to launch your website.
+
+ # Credits and Acknowlegements
+  - Kera Cudamore https://github.com/kera-cudmore/readme-examples?tab=readme-ov-file#how-to-write-your-readme -Readme tips and tricks
+  - https://dev.to/nehalahmadkhan/how-to-make-footer-stick-to-bottom-of-web-page-3i14(Rudy Reeves comment) -make footer stay at bottom of page research
+  - https://github.com/Code-Institute-Solutions/love-running-v3/tree/main -guidance
+  - https://css-tricks.com/tag/flexbox/ -help with choosing flex-box properties
+  - https://css-tricks.com/snippets/css/a-guide-to-flexbox/ -help with choosing flex-box properties
+     Chris Coyier on Apr 8, 2013 (Updated on May 20, 2024) 
+  - https://www.discoverireland.ie  -fishing spots                                                                           
+  - https://blog.hubspot.com/website/how-to-embed-google-map-in-html -how to embed google maps
+  - https://www.galwaytourism.ie/connemara/inagh-valley/ -research on lakes and information
+  - https://fishinginireland.info/trout/north/cavan/ -research on lakes and information
+  - https://www.pexels.com/ -images
+
