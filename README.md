@@ -27,7 +27,10 @@ Trout Fishing Haven is a website to give you an overview what and how to catch t
 13. [Testing](#testing)
     - [HTML Validation](#html-validation)
     - [CSS Validation](#css-validation)
-    - [Google dev tools Lighthouse](#google-dev-tool-lighthouse)      
+    - [Google dev tools Lighthouse](#google-dev-tool-lighthouse)
+    - [Webpage test](#webpage-test)
+14. [Bugs](#bugs)
+15. [Credits and Acknowlegements](#credits-and-acknowlegements)    
 # Overview
 Trout Fishing Haven is a fictional website created for Project Portfolio 1.
 - Website consists of 3 seperate HTML pages all linked together through the use of the nav menu.
@@ -180,4 +183,5 @@ Trout Fishing Haven is a fictional website created for Project Portfolio 1.
   - https://www.galwaytourism.ie/connemara/inagh-valley/ -research on lakes and information
   - https://fishinginireland.info/trout/north/cavan/ -research on lakes and information
   - https://www.pexels.com/ -images
+  - Slack community
 
